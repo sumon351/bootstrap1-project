@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+ <style>
+     .link-style:hover{
+         text-decoration: underline;
+     }
+     .my-color{
+         background-color: black;
+     }
+     .slide-section{
+         background-color: purple;
+         color: white;
+     
+         padding: 30px 10px;
+         text-align: center;
+         font-style: italic;
+     }
+     .carousel-item{
+         padding:5% 15%;
+     }
+     img{
+         width: 120px;
+         height: auto;
+     }
+     .carousel-indicators{
+         bottom: -20px;
+     }
+     .feedback1{
+        border: 5px dotted white;
+         border-bottom: none;
+         
+     }
+ </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-sm my-color navbar-dark">
+                <a href="#" class="navbar-brand">
+                    <h5>CodingNazmul</h5>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Tutorial</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                    </ul>
+
+                  </div>
+          
+            </nav>
+ 
+        </header>
+        <main>
+
+            <div class="service-section bg-light p-4">
+              <div class="title">
+                  <h2 class="text-dark text-center font-weight-bold">Services</h2>
+              </div>
+            </div>
+
+            <div class="row text-left text-md-center p-3">
+                <div class="col-lg-3 col-md-6">
+                    <i class="bg-primary text-white p-3 fa-2x rounded-circle mb-2 fas fa-handshake-slash"></i>
+                    <h3>web design</h3>
+                    <p class="small text-justify text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit asperiores vero minus eveniet rerum quis fugit incidunt obcaecati voluptates nam. Eligendi neque quas cumque rem excepturi explicabo odio sed molestiae, consequuntur quo magnam?</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <i class="bg-primary text-white p-3 fa-2x rounded-circle mb-2 fas fa-handshake-slash"></i>
+                    <h3>web development</h3>
+                    <p class="small text-justify text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit asperiores vero minus eveniet rerum quis fugit incidunt obcaecati voluptates nam. Eligendi neque quas cumque rem excepturi explicabo odio sed molestiae, consequuntur quo magnam?</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <i class="bg-primary text-white p-3 fa-2x rounded-circle mb-2 fas fa-handshake-slash"></i>
+                    <h3>graphics design</h3>
+                    <p class="small text-justify text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit asperiores vero minus eveniet rerum quis fugit incidunt obcaecati voluptates nam. Eligendi neque quas cumque rem excepturi explicabo odio sed molestiae, consequuntur quo magnam?</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <i class="bg-primary text-white p-3 fa-2x rounded-circle mb-2 fas fa-handshake-slash"></i>
+                    <h3>digital marketing</h3>
+                    <p class="small text-justify text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit asperiores vero minus eveniet rerum quis fugit incidunt obcaecati voluptates nam. Eligendi neque quas cumque rem excepturi explicabo odio sed molestiae, consequuntur quo magnam?</p>
+                </div>
+                
+
+            </div>
+
+
+            <div class="about-section bg-light">
+                <div class="jumbatron">
+                    <div class="title">
+                        <h1 class="font-weight-bold text-center">About Me</h1>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img class="img-fluid rounded-circle" src="sumon.png" alt="">
+                        </div>
+                        <div class="col-lg-8">
+                            <p>Lorem ipsum,a! Editiis. Nemo deserunt nam aliquid dignissimos earum cumque fugiat qui accusantium quidem. Expedita sequi, alias minus perferendis ut odit consequuntur iusto labore aliquid esse incidunt impedit facere repellat? Ipsa velit ad assumenda harum. Cupiditate quam amet quas quisquam! Inventore fuga molestias quam porro totam, nihil nulla ipsa aspernatur quibusdam voluptate? Impedit vel quod, doloremque nesciunt fugit hic exercitationem facere aliquid, voluptate error facilis eligendi nostrum voluptates molestias dolores provident consequuntur quidem pariatur ipsa. Ullam nostrum nisi velit quae earum, eum magni corrupti aut qui id consectetur vel, illo temporibus accusantium ab quaerat? Voluptas odit illo expedita ea, maxime vitae fugit eveniet nihil harum sed itaque possimus obcaecati excepturi voluptatibus consequuntur, nulla a nam accusamus doloremque impedit! Veniam delectus neque rerum? Quis recusandae a quia. Labore eos obcaecati inventore ad cupiditate consectetur voluptatum animi vitae incidunt voluptatibus, optio fugit maxime quasi natus eveniet iure et ipsa quibusdam sunt earum rerum porro quod? Sapiente deleniti repellat molestiae temporibus, quaerat in recusandae sit quae nisi. Voluptatum excepturi tempora dolore delectus magni? Omnis similique, cupiditate cumque eligendi sed rerum corporis minus reprehenderit doloribus consectetur possimus reiciendis ipsa debitis libero enim eos exercitationem placeat dolores odit! Minus et error ipsam eius.</p>
+                          
+                          <button class="btn btn-primary mb-3">Download CV</button>
+                          
+                            <a class="d-block mb-3" href="#demo" data-toggle="collapse">Learn more</a>
+                           <div id="demo" class="collapse">
+                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et neque exercitationem modi totam ullam, cum ad. Perspiciatis dolorem dolore reprehenderit molestias dignissimos.</p>
+                           </div>
+                           
+                           
+                           
+                            <div class="alert alert-success alert-dismissible">
+
+                                <button class="close" data-dismiss="alert">&times;</button>
+                                
+                                have you visited my fb link?<a href="https://www.facebook.com/nhaque3510/" target="blank">visit here</a>
+                            </div>
+                       
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<!-- 
+            card design starts here -->
+
+    <div class="card-design">
+        <div class="title text-center mb-3">
+            <h3 class="font-weight-bold">Card Design</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="card">
+                <img class="card-img-top" src="sumon.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title text-danger text-center">HSC ICT</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil unde quidem libero!</p>
+                    <a class="card-link" href="https://www.facebook.com/">Facebook link </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card">
+                <img class="card-img-top" src="sumon.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title text-danger text-center">HSC ICT</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil unde quidem libero!</p>
+                    <a class="card-link" href="https://www.facebook.com/">Facebook link </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card">
+                <img class="card-img-top" src="sumon.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title text-danger text-center">HSC ICT</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil unde quidem libero!</p>
+                    <a class="card-link" href="https://www.facebook.com/">Facebook link </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card">
+                <img class="card-img-top" src="sumon.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title text-danger text-center">HSC ICT</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil unde quidem libero!</p>
+                    <a class="card-link" href="https://www.facebook.com/">Facebook link </a>
+                </div>
+            </div>
+        </div>
+     
+
+
+
+
+
+    </div>
+
+
+            
+<!-- 
+            card design ends here -->
+
+
+<div class="customer- Review">
+    <div class="title">
+        <h1 class="text-danger text-center py-3">Customer Review</h1>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-4">
+            <blockquote class="blockquote">
+                <i class="fas fs-user-circle"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et perspiciatis aliquam cupiditate quas distinctio quos saepe illo ipsum. Animi officiis suscipit minima ipsa ipsam nulla sint voluptas laudantium, debitis cupiditate?
+                    we have to learn <abbr title="bootstrap">bs4</abbr>
+
+                    <footer class="blockquote-footer">
+                        Nazmul Haque in <cite>facebook</cite>
+
+                    </footer>
+                </p>
+            </blockquote>
+        </div>
+        <div class="col-lg-4">
+            <blockquote class="blockquote">
+                <i class="fas fs-user-circle"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et perspiciatis aliquam cupiditate quas distinctio quos saepe illo ipsum. Animi officiis suscipit minima ipsa ipsam nulla sint voluptas laudantium, debitis cupiditate?
+                    we have to learn <abbr title="bootstrap">bs4</abbr>
+
+                    <footer class="blockquote-footer">
+                        Nazmul Haque in <cite>facebook</cite>
+
+                    </footer>
+                </p>
+            </blockquote>
+        </div>
+        <div class="col-lg-4">
+            <blockquote class="blockquote">
+                <i class="fas fs-user-circle"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et perspiciatis aliquam cupiditate quas distinctio quos saepe illo ipsum. Animi officiis suscipit minima ipsa ipsam nulla sint voluptas laudantium, debitis cupiditate?
+                    we have to learn <abbr title="bootstrap">bs4</abbr>
+
+                    <footer class="blockquote-footer">
+                        Nazmul Haque in <cite>facebook</cite>
+
+                    </footer>
+                </p>
+            </blockquote>
+        </div>
+    </div>
+</div>
+   
+<!-- dynamic toggleable tabs starts here -->
+
+
+<div class="other-section">
+    <ul class="nav nav-tabs">
+        <li class="nav-item"><a data-toggle="tab" class="nav-link active" href="#edu">Education</a></li>
+        <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#skill">Skill</a></li>
+        <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#hobby">Hobby</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="edu" class="tab-pane active"><p>1. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id maiores commodi cum corrupti optio numquam dolorum impedit dignissimos obcaecati temporibus neque tempora itaque a ut, quas doloribus ducimus nemo quos.</p></div>
+        <div id="skill" class="tab-pane fade"><p>2. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id maiores commodi cum corrupti optio numquam dolorum impedit dignissimos obcaecati temporibus neque tempora itaque a ut, quas doloribus ducimus nemo quos.</p></div>
+        <div id="hobby" class="tab-pane fade"><p>3. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id maiores commodi cum corrupti optio numquam dolorum impedit dignissimos obcaecati temporibus neque tempora itaque a ut, quas doloribus ducimus nemo quos.</p></div>
+   
+    </div>
+</div>
+
+<!-- dynamic toggleable tabs ends here -->
+
+
+<!-- dynamic toggleable starts ends here -->
+
+
+<div class="other2-section">
+    <ul class="nav nav-pills">
+        <li class="nav-item"><a data-toggle="pill" class="nav-link active" href="#ex">Exercise</a></li>
+        <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#food">Food</a></li>
+        <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#drink">Drink</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="ex" class="tab-pane active"><p>1. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id maiores commodi cum corrupti optio numquam dolorum impedit dignissimos obcaecati temporibus neque tempora itaque a ut, quas doloribus ducimus nemo quos.</p></div>
+        <div id="food" class="tab-pane fade"><p>2. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id maiores commodi cum corrupti optio numquam dolorum impedit dignissimos obcaecati temporibus neque tempora itaque a ut, quas doloribus ducimus nemo quos.</p></div>
+        <div id="drink" class="tab-pane fade"><p>3. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id maiores commodi cum corrupti optio numquam dolorum impedit dignissimos obcaecati temporibus neque tempora itaque a ut, quas doloribus ducimus nemo quos.</p></div>
+   
+    </div>
+</div>
+
+<!-- dynamic toggleable tabs ends here -->
+
+<div class="media-section">
+    <div class="title text-center mb-3">
+        <h3>My Blogs</h3>
+    </div>
+</div>
+<div class="media border p-3 mt-5">
+    <img style="width: 100px;" class="rounded-circle mr-3" src="sumon.png" alt="">
+
+    <div class="media-body">
+        <h5>I Love Coding</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatibus, iure minima doloremque dolorem, sint eos veritatis illum dolores nisi eum tempora ea. Delectus dicta mollitia saepe, voluptas minus libero?</p>
+    </div>
+</div>
+
+
+
+<div class="media border p-3 mt-5">
+    
+
+    <div class="media-body">
+        <h5>I Love Coding</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatibus, iure minima doloremque dolorem, sint eos veritatis illum dolores nisi eum tempora ea. Delectus dicta mollitia saepe, voluptas minus libero?</p>
+    </div>
+    <img style="width: 100px;" class="rounded-circle mr-3" src="sumon.png" alt="">
+</div>
+
+
+
+
+<div class="media border p-3 mt-5">
+    <img style="width: 100px;" class="rounded-circle mr-3 align-self-center" src="sumon.png" alt="">
+
+    <div class="media-body">
+        <h5>I Love Coding</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatibus, iure minima doloremque dolorem, sint eos veritatis illum dolores nisi eum tempora ea. Delectus dicta mollitia saepe, voluptas minus libero?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eius, ratione at quae consequuntur rem porro praesentium dolorum, quaerat unde ullam vero nisi voluptate a, laudantium reprehenderit iusto sequi quasi veritatis amet exercitationem nulla animi! Soluta repellendus quo, dignissimos impedit et dolorum ducimus nemo modi veritatis obcaecati placeat at, corrupti autem quos suscipit in. Quo, doloribus facilis, magnam, deleniti aliquam quis illo aperiam consequuntur provident dicta sunt. Ad a fuga, quisquam iusto esse quo minima. Perspiciatis quas saepe, ex possimus iusto rerum esse quod nesciunt asperiores impedit consectetur, obcaecati quisquam odit veritatis quibusdam autem, fugit debitis velit nemo. Aliquam, dolor dolores quo optio ducimus ipsam non quis enim, voluptatum, repellendus minus! Vitae eius saepe illo amet sapiente quae, porro nulla aut distinctio ducimus ad beatae, officiis dicta similique ex accusamus quod hic praesentium odio, maiores cum. Dolor, eos. Doloribus, incidunt illum sint dolores molestias explicabo aspernatur velit, ratione officiis porro assumenda labore laboriosam suscipit. Fugiat minus voluptas incidunt laboriosam suscipit magnam aliquid neque corrupti! Sint ab suscipit, odio provident, repellat, expedita ut tempora id quasi dolore laudantium iste? Minus, inventore dicta? Delectus, sed quis quasi ea quod blanditiis modi eius ipsa! Laudantium quidem delectus totam, mollitia perferendis illum assumenda suscipit! Soluta dolore accusamus aspernatur nihil animi sunt voluptas distinctio. Quidem libero, deleniti quos alias ipsa veritatis blanditiis fugit voluptatibus similique dolorum amet.</p>
+    </div>
+</div>
+<!-- media section ends here -->
+
+
+   <!-- list section starts here   -->
+
+<div class="student-list">
+    <ul class="list-group">
+        <li class="list-group-item bg-primary text-white text-center">Nazmul</li>
+        <li class="list-group-item bg-info text-white  text-center">Sumon</li>
+        <li class="list-group-item bg-warning text-white text-center">Tania</li>
+        <a class="list-group-item list-group-item-action text-white  bg-success text-center" href="">Afia</a>
+    </ul>
+</div>
+   <!-- list section ends here   -->
+
+
+      <!-- table section starts here   -->
+
+
+<div class="table-section my-3">
+    <div class="title text-center mb-3">
+        <h2 class="font-weight-bold">Education</h2>
+    </div>
+</div>   
+<table class="table table-bordered text-center table-dark table-hover">
+    <thead>
+        <tr>
+            <th>CERTIFIED</th>
+            <th>INSTITUTE</th>
+            <th>YEAR</th>
+            <TH>CGPA/GPA</TH>
+            <TH>DEPARTMENT</TH>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>BSc</td>
+            <th>Institute of Science and Technology</th>
+            <th>2020</th>
+            <th>3.16 out of 4.00</th>
+            <th>Electronics and Communication Engineering</th>
+        </tr>
+        <tr>
+            <td>HSC</td>
+            <th>Eco College Thakurgaon</th>
+            <th>2015</th>
+            <th>4.17 out of 5.00</th>
+            <th>Science</th>
+        </tr>
+        <tr>
+            <td>SSC</td>
+            <th>Toria High School</th>
+            <th>2013</th>
+            <th>4.69 out of 5.00</th>
+            <th>Science</th>
+        </tr>
+        <tr>
+            <td>JSC</td>
+            <th>Toria High School</th>
+            <th>2010</th>
+            <th>3.29 out of 5.00</th>
+            <th>General</th>
+        </tr>
+
+    </tbody>
+</table>   
+         <!-- table section ends here   -->
+
+
+
+
+
+         <!-- form section starts here -->
+         <div class="form-section bg-primary text-white my-4 p-3">
+             <div class="title text-center mb-3">
+                 <h3 class="font-weight-bold">Contact Me </h3>
+             </div>
+             <form action="" class="w-50 m-auto was-validated" >
+                 <div class="form-group">
+                     <label for="fullname">Full Name</label>
+                     <input type="text" class="form-control" name="fullname" required>
+               
+                          <div class="valid-feedback">valid</div>
+                          <div class="invalid-feedback">please enter your full name as soon as possible</div>
+                    </div>
+                 <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="message">Messege</label>
+                    <textarea class="form-control" style="resize: none;" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    
+                    <input type="submit" value="submit" class="btn btn-dark">
+                    <input type="reset" value="reset" class="btn btn-dark">
+
+                </div>
+             </form>
+         </div>
+
+
+
+          <!-- form section ends here -->
+<!-- slide section starts here  -->
+          <div class="slide-section">
+              <div class="title text-center mb-3">
+                  <h3>Feedback</h3>
+                  <hr style="border: 5px dotted white; border-bottom: none; width: 50px;">
+              </div>
+              <div class="row">
+                  <div class="col-lg-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam itaque, aut distinctio assumenda totam omnis voluptas recusandae, quasi repellat nostrum suscipit modi unde nisi alias facere, est sunt atque sit?</p>
+                             <img class="rounded-circle mb-3" src="sumon.png" alt="">
+                             <h6>Nazmul Haque</h6>
+                        
+                            </div>
+                          <div class="carousel-item">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dignissimos eaque sint natus voluptatem minima ea facere ipsam fuga! Quam nesciunt ullam praesentium natus cupiditate amet quis a reiciendis ab.</p>
+                              <img class="rounded-circle mb-3" src="sumon.png" alt="">
+                              <h6>Tania Haque</h6>
+                         
+                         
+                            </div>
+                          <div class="carousel-item">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quam dolores vel porro? Provident cupiditate reprehenderit consequuntur itaque autem laborum voluptas voluptatem minus illum illo, eveniet, ipsam, numquam quo dolore.</p>
+                                <img class="rounded-circle mb-3" src="sumon.png" alt="">
+                                <h6>Sumon Khan</h6>
+                        
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                  </div>
+              </div>
+          </div>   
+<!-- slide section start-->  
+        </main>
+        <footer class="bg-dark my-3 ">
+
+
+            <ul class="pagination p-2 justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+
+
+
+        </footer>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
